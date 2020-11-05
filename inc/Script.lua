@@ -2430,7 +2430,6 @@ if not msg.SudoBase then return"• **هذا الامر يخص {المطور ا�
 redis:setex(herwen..":ForceSub:"..msg.sender_user_id_,350,true)
 return "• مرحبا بـك في نظام الاشتراك الاجباري\n• الان ارسل معرف قـنـاتـك"
 end
-end
 
 local function dherwen(msg)
 
