@@ -1195,7 +1195,7 @@ redis:set(bita.."chencher"..msg.sender_user_id_, data.first_name_)
 end,nil) 
 end
 end
-return {
+return }
 bita = {
 "^(حزوره)$", 
 "^(كت تويت)$", 
@@ -1232,6 +1232,6 @@ bita = {
 "^(الانكليزي)$",
 "^(قائمه الالعاب)$",
  },
- joker	rap = games,
- joker  rap = procces,
+ jokerrap = games,
+ jokerrap = procces,
  }
