@@ -2289,9 +2289,9 @@ return sendMsg(ChatID,MsgID,"-**لا يمكنك كتم المطور الاساس
 elseif  UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"-**لا يمكنك كتم مطور السورس\n●")
 elseif  UserID == 1358752732 then 
-return sendMsg(ChatID,MsgID,"-**لا يمكنك كتم مطور السورس\n●"
+return sendMsg(ChatID,MsgID,"-**لا يمكنك كتم مطور السورس\n●")
 elseif  UserID == 1278089148 then 
-return sendMsg(ChatID,MsgID,"-**لا يمكنك كتم مطور السورس\n●"
+return sendMsg(ChatID,MsgID,"-**لا يمكنك كتم مطور السورس\n●")
 elseif redis:sismember(herwen..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"-**لا يمكنك كتم المطور\n●") 
 elseif redis:sismember(herwen..':KARA_BOT:'..ChatID,UserID) then 
