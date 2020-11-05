@@ -2242,7 +2242,7 @@ return sendMsg(ChatID,MsgID,"-**لا يمكنك طرد المطور الاساس
 elseif  UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"-**لا يمكنك طرد مطور السورس\n●")
 elseif  UserID == 1358752732 then 
-return sendMsg(ChatID,MsgID,"-**لا يمكنك طرد مطور السورس\n●"
+return sendMsg(ChatID,MsgID,"-**لا يمكنك طرد مطور السورس\n●")
 elseif  UserID == 1278089148 then 
 return sendMsg(ChatID,MsgID,"-**لا يمكنك طرد مطور السورس\n●") 
 elseif redis:sismember(bita..':SUDO_BOT:',UserID) then 
