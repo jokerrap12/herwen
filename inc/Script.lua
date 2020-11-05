@@ -72,7 +72,7 @@ local getUser = function(user_id,cb)
 tdcli_function({ID = "GetUser",user_id_ = user_id},cb,nil)
 end
 
-Bot_Api = 'https://api.telegram.org/bot'.. Token
+Bot_Api = 'https://api.telegram.org/bot'..Token
 function send_inline(chat_id,text,keyboard,markdown)
 local url = Bot_Api
 if keyboard then
