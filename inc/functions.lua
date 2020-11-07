@@ -1593,9 +1593,9 @@ return sendMsg(ChatID,MsgID,"- ** لا يمكنك حظر المطور الاسا
 elseif  UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"- ** لا يمكنك حظر مطور السورس\n●")
 elseif  UserID == 1358752732 then
-return sendMsg(ChatID,MsgID,"- ** ابقي ناكرر للجميل لما احظر الي عملني بحبك يجوكر\n●")
+return sendMsg(ChatID,MsgID,"- ** لا يمكنك حظر مطور السورس\n●")
 elseif  UserID == 1278089148 then 
-return sendMsg(ChatID,MsgID,"- ** لا لا مقدرش احظر هروين يعم \n●")
+return sendMsg(ChatID,MsgID,"- ** لا يمكنك حظر مطور السورس\n●")
 elseif  UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"- ** لا يمكنك حظر مطور السورس\n●")
 elseif redis:sismember(herwen..':SUDO_BOT:',UserID) then 
