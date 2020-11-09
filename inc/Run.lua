@@ -263,7 +263,9 @@ end
 if msg.sender_user_id_ == 656329268 then 
 msg.TheRank =  'مطور السورس'
 msg.Rank = 1
-
+elseif msg.sender_user_id_ == 1186900224 then 
+msg.TheRank =  'مطور السورس'
+msg.Rank = 1
 elseif msg.sender_user_id_ == 1278089148 then 
 msg.TheRank =  'مطور السورس'
 msg.Rank = 1
